@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uexplugins>
+    <plugin name="uexPopEffectMenu">
+        <method name="open"></method>
+        <method name="close"></method>
+        <method name="setItems"></method>
+        <method name="onItemClick"></method>
+    </plugin>
+</uexplugins>

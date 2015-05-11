@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84264DF21A7C9C0900E1687F /* LDTumblrMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84264DEE1A7C9C0900E1687F /* LDTumblrMenuView.m */; };
+		846994A91A794476002C871E /* EUExPopEffectMenu.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 846994A81A794476002C871E /* EUExPopEffectMenu.h */; };
+		846994AB1A794476002C871E /* EUExPopEffectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 846994AA1A794476002C871E /* EUExPopEffectMenu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		846994A31A794476002C871E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				846994A91A794476002C871E /* EUExPopEffectMenu.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84264DE71A7C9C0900E1687F /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		84264DE81A7C9C0900E1687F /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		84264DE91A7C9C0900E1687F /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		84264DED1A7C9C0900E1687F /* LDTumblrMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTumblrMenuView.h; sourceTree = "<group>"; };
+		84264DEE1A7C9C0900E1687F /* LDTumblrMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDTumblrMenuView.m; sourceTree = "<group>"; };
+		84264DF51A7C9C7A00E1687F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		84264DF61A7C9C7A00E1687F /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		84264DF71A7C9C7A00E1687F /* MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Digest.h; sourceTree = "<group>"; };
+		84264DF81A7C9C7A00E1687F /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		84264DF91A7C9C7A00E1687F /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		84264DFA1A7C9C7A00E1687F /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		84264DFB1A7C9C7A00E1687F /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		84264DFC1A7C9C7A00E1687F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		84264DFD1A7C9C7A00E1687F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		846994A51A794476002C871E /* libuexPopEffectMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexPopEffectMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		846994A81A794476002C871E /* EUExPopEffectMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExPopEffectMenu.h; sourceTree = "<group>"; };
+		846994AA1A794476002C871E /* EUExPopEffectMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExPopEffectMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846994A21A794476002C871E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84264DE61A7C9C0900E1687F /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				84264DE71A7C9C0900E1687F /* EUExBase.h */,
+				84264DE81A7C9C0900E1687F /* EUExBaseDefine.h */,
+				84264DE91A7C9C0900E1687F /* EUtility.h */,
+			);
+			path = engineHeader;
+			sourceTree = "<group>";
+		};
+		84264DEA1A7C9C0900E1687F /* sourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				84264DED1A7C9C0900E1687F /* LDTumblrMenuView.h */,
+				84264DEE1A7C9C0900E1687F /* LDTumblrMenuView.m */,
+			);
+			path = sourceCode;
+			sourceTree = "<group>";
+		};
+		84264DF41A7C9C7A00E1687F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				84264DF51A7C9C7A00E1687F /* JSON.h */,
+				84264DF61A7C9C7A00E1687F /* JSONParser.h */,
+				84264DF71A7C9C7A00E1687F /* MD5Digest.h */,
+				84264DF81A7C9C7A00E1687F /* NSObject+SBJSON.h */,
+				84264DF91A7C9C7A00E1687F /* NSString+SBJSON.h */,
+				84264DFA1A7C9C7A00E1687F /* SBJSON.h */,
+				84264DFB1A7C9C7A00E1687F /* SBJsonBase.h */,
+				84264DFC1A7C9C7A00E1687F /* SBJsonParser.h */,
+				84264DFD1A7C9C7A00E1687F /* SBJsonWriter.h */,
+			);
+			name = JSON;
+			path = sourceCode/JSON;
+			sourceTree = "<group>";
+		};
+		8469949C1A794476002C871E = {
+			isa = PBXGroup;
+			children = (
+				846994A71A794476002C871E /* EUExPopEffectMenu */,
+				846994A61A794476002C871E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846994A61A794476002C871E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846994A51A794476002C871E /* libuexPopEffectMenu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846994A71A794476002C871E /* EUExPopEffectMenu */ = {
+			isa = PBXGroup;
+			children = (
+				84264DF41A7C9C7A00E1687F /* JSON */,
+				84264DE61A7C9C0900E1687F /* engineHeader */,
+				84264DEA1A7C9C0900E1687F /* sourceCode */,
+				846994A81A794476002C871E /* EUExPopEffectMenu.h */,
+				846994AA1A794476002C871E /* EUExPopEffectMenu.m */,
+			);
+			path = EUExPopEffectMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846994A41A794476002C871E /* EUExPopEffectMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846994B91A794476002C871E /* Build configuration list for PBXNativeTarget "EUExPopEffectMenu" */;
+			buildPhases = (
+				846994A11A794476002C871E /* Sources */,
+				846994A21A794476002C871E /* Frameworks */,
+				846994A31A794476002C871E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUExPopEffectMenu;
+			productName = EUExPopEffectMenu;
+			productReference = 846994A51A794476002C871E /* libuexPopEffectMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8469949D1A794476002C871E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LinDong;
+				TargetAttributes = {
+					846994A41A794476002C871E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 846994A01A794476002C871E /* Build configuration list for PBXProject "EUExPopEffectMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8469949C1A794476002C871E;
+			productRefGroup = 846994A61A794476002C871E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846994A41A794476002C871E /* EUExPopEffectMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846994A11A794476002C871E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84264DF21A7C9C0900E1687F /* LDTumblrMenuView.m in Sources */,
+				846994AB1A794476002C871E /* EUExPopEffectMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		846994B71A794476002C871E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPopEffectMenu";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		846994B81A794476002C871E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexPopEffectMenu";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846994BA1A794476002C871E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexPopEffectMenu;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		846994BB1A794476002C871E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexPopEffectMenu;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846994A01A794476002C871E /* Build configuration list for PBXProject "EUExPopEffectMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846994B71A794476002C871E /* Debug */,
+				846994B81A794476002C871E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846994B91A794476002C871E /* Build configuration list for PBXNativeTarget "EUExPopEffectMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846994BA1A794476002C871E /* Debug */,
+				846994BB1A794476002C871E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8469949D1A794476002C871E /* Project object */;
+}
